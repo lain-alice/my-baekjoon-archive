@@ -14,7 +14,6 @@ for _ in range(t):
     k = int(input())
     chapters = list(map(int, input().split()))
     heapify(chapters)
-    # sort랑 같은 건가?
 
     novel = 0
 
@@ -35,3 +34,6 @@ for _ in range(t):
         # chapters가 1개 남을 때까지 계속
 
     print(novel) # for문 안에 있으니 한줄씩 출력
+
+# 그리디 알고리즘
+# 어떤 파일이든간에 한번씩 합쳐져야 함, 가장 작은 파일끼리 합침
